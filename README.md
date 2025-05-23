@@ -1,5 +1,7 @@
 # LLM Evaluation & Hallucination Detection Framework
 
+## Youtube Explnation fro approach - https://youtu.be/xl5zkZnjZ1A 
+
 ## Overview
 This repository provides a framework for evaluating the performance and factual correctness of large language models (LLMs), particularly OpenAI's GPT-4o and Mistral. It includes tools for:
 
