@@ -73,17 +73,17 @@ GOOGLE_FACTCHECK_API_KEY=your_google_fact_check_key
 ## How to Run
 1. Compare GPT vs Mistral
 ```bash
-python one.py
+python 1.py
 ```
 
 2. Detect Hallucinations in Output
 ```bash
-python two.py
+python 2.py
 ```
 
 3. Benchmark Prompt Templates
 ```bash
-python three.py
+python 3.py
 ```
 
 ## Tools & Models Used
