@@ -1,0 +1,73 @@
+Testing prompt template: Answer this question within one line something like - prompt : What is the capital of France?,  expected: Paris is the capital city of France. : {}
+Prompt: What is the capital of France?
+Expected: Paris is the capital city of France.
+Actual: Paris is the capital city of France.
+Similarity: 1.000
+---
+Prompt: Explain photosynthesis.
+Expected: Photosynthesis is the process in plants where sunlight is converted into chemical energy.
+Actual: Photosynthesis is the process by which green plants convert sunlight into chemical energy, producing oxygen and glucose from carbon dioxide and water.
+Similarity: 0.938
+---
+Prompt: Write the name of Mahatama Gandhi's birthplace.
+Expected: Mahatma Gandhi was born in Porbandar, India.
+Actual: Porbandar is the birthplace of Mahatma Gandhi.
+Similarity: 0.913
+---
+Average similarity for template 'Answer this question within one line something like - prompt : What is the capital of France?,  expected: Paris is the capital city of France. : {}': 0.950
+
+Testing prompt template: Please respond carefully: {}
+Prompt: What is the capital of France?
+Expected: Paris is the capital city of France.
+Actual: The capital of France is Paris.
+Similarity: 0.970
+---
+Prompt: Explain photosynthesis.
+Expected: Photosynthesis is the process in plants where sunlight is converted into chemical energy.
+Actual: Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy in the form of glucose, using carbon dioxide and water, and releasing oxygen as a byproduct.
+Similarity: 0.915
+---
+Prompt: Write the name of Mahatama Gandhi's birthplace.
+Expected: Mahatma Gandhi was born in Porbandar, India.
+Actual: Mahatma Gandhi was born in Porbandar, India.
+Similarity: 1.000
+---
+Average similarity for template 'Please respond carefully: {}': 0.962
+
+Testing prompt template: Q: {} A:
+Prompt: What is the capital of France?
+Expected: Paris is the capital city of France.
+Actual: Paris.
+Similarity: 0.686
+---
+Prompt: Explain photosynthesis.
+Expected: Photosynthesis is the process in plants where sunlight is converted into chemical energy.
+Actual: Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy in the form of glucose, using carbon dioxide and water.
+Similarity: 0.916
+---
+Prompt: Write the name of Mahatama Gandhi's birthplace.
+Expected: Mahatma Gandhi was born in Porbandar, India.
+Actual: Porbandar, India.
+Similarity: 0.643
+---
+Average similarity for template 'Q: {} A:': 0.748
+
+Testing prompt template: {}
+Prompt: What is the capital of France?
+Expected: Paris is the capital city of France.
+Actual: The capital of France is Paris.
+Similarity: 0.970
+---
+Prompt: Explain photosynthesis.
+Expected: Photosynthesis is the process in plants where sunlight is converted into chemical energy.
+Actual: Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, carbon dioxide, and water into glucose and oxygen.
+Similarity: 0.883
+---
+Prompt: Write the name of Mahatama Gandhi's birthplace.
+Expected: Mahatma Gandhi was born in Porbandar, India.
+Actual: Mahatma Gandhi was born in Porbandar, Gujarat, India.
+Similarity: 0.976
+---
+Average similarity for template '{}': 0.943
+
+Best prompt template selected: 'Please respond carefully: {}' with average similarity 0.962
