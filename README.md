@@ -19,9 +19,9 @@ The implementation is modular, with a clear separation between:
 ## Repository Structure
 | File             | Description                                                                 |
 |------------------|-----------------------------------------------------------------------------|
-| `one.py`         | Evaluates GPT-4o and Mistral outputs based on relevance, coherence, factual accuracy, tone, and intent. |
-| `two.py`         | Detects hallucinated claims in model outputs using reference data (Wikipedia) and a RoBERTa-based NLI model. |
-| `three.py`       | Tests various prompt templates using semantic similarity to benchmark answer quality and select the best format. |
+| `1.py`         | Evaluates GPT-4o and Mistral outputs based on relevance, coherence, factual accuracy, tone, and intent. |
+| `2.py`         | Detects hallucinated claims in model outputs using reference data (Wikipedia) and a RoBERTa-based NLI model. |
+| `3.py`       | Tests various prompt templates using semantic similarity to benchmark answer quality and select the best format. |
 | `.env`           | Environment variables for API keys (not committed).                        |
 | `requirements.txt` | Python dependencies.                                                     |
 
