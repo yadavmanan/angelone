@@ -1,0 +1,9 @@
+openai
+mistralai
+nltk
+textblob
+transformers
+sentence-transformers
+torch
+python-dotenv
+requests
