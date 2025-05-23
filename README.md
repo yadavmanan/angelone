@@ -31,7 +31,7 @@ The implementation is modular, with a clear separation between:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/llm-eval-framework.git
+git clone https://github.com/yadavmanan/angelone.git
 cd llm-eval-framework
 ```
 
